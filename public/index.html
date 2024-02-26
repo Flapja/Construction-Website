@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Crete+Round&family=DM+Serif+Text:ital@1&family=Heebo:wght@700;900&family=Istok+Web:wght@400;700&family=Lato&family=Libre+Franklin:wght@300;500&family=Manrope&family=Open+Sans:ital,wght@0,500;1,800&family=PT+Sans+Narrow:wght@700&family=PT+Serif&family=Poppins:wght@200;400;600&family=Quicksand&family=Roboto+Condensed:wght@700&family=Varela+Round&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Header-->
+    <section
+      class="h-screen relative bg-gradient-to-b from-main-gradient-black to-main-gradient-black flex flex-col items-start justify-center text-main-white"
+    >
+      <img
+        src="images/const-1.jpg"
+        id="myImage"
+        class="object-cover absolute top-0 left-0 w-full h-full mix-blend-overlay transition-opacity duration-1000 ease-in-out"
+        alt=""
+      />
+      <!--Navbar-->
+      <div
+        class="lg:w-1400 mx-auto relative flex flex-col lg:flex-row items-center justify-between lg:pt-6 space-y-4 lg:space-y-0"
+      >
+        <a
+          href="#"
+          class="lg:text-5xl md:pl-0 text-4xl font-bold text-main-orange"
+          >The Construction</a
+        >
+
+        <nav class="flex justify-between font-bold">
+          <div
+            class="flex items-center text-lg lg:text-lg space-x-4 lg:space-x-6"
+          >
+            <a class="animation" href="#">Home</a>
+            <a class="animation" href="#">About</a>
+            <a class="animation" href="#">Works</a>
+            <a class="animation" href="#">Offers</a>
+            <a class="animation" href="#">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!--Content-->
+      <div
+        class="lg:w-1400 lg:px-0 px-4 lg:mx-auto h-full relative flex items-center lg:text-left text-center"
+      >
+        <div class="lg:w-1/2 lg:absolute w-full space-y-3">
+          <h1 class="lg:text-6xl text-4xl font-bold tracking-wider">
+            The <span class="text-main-orange">Best</span> Construction Team is
+            Here!
+          </h1>
+          <p class="tracking-wide lg:text-lg text-sm">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non dolore
+            autem laborum a est ab suscipit consequuntur sint deleniti aperiam?
+          </p>
+          <!--Buttons-->
+          <div
+            class="space-x-8 flex items-center lg:justify-start justify-center relative mt-16 text-white"
+          >
+            <button type="button" class="button">
+              <a href="">Book a Call Now!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Who we are-->
+    <section class="relative bg-main-background py-4 flex items-center">
+      <div
+        class="lg:w-1400 w-500 mx-auto relative flex flex-col lg:flex-row items-center justify-between lg:pt-6 space-y-4 lg:space-y-0"
+      >
+        <div
+          class="basis-1/2 relative h-96 bg-gradient-to-b from-main-gradient-black to-main-gradient-black rounded-md"
+        >
+          <img
+            src="images/team-picture.jpg"
+            class="object-cover absolute top-0 left-0 w-full h-full mix-blend-overlay"
+          />
+        </div>
+        <div
+          class="basis-1/2 flex flex-col items-center justify-center text-center px-5"
+        >
+          <h1 class="lg:text-4xl text-3xl font-bold tracking-wide">
+            Who We Are?
+          </h1>
+          <p class="opacity-80 mt-3 lg:text-base text-sm">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+            excepturi laudantium sit dolor, incidunt et molestias nesciunt
+            pariatur facilis voluptates voluptas, officiis explicabo nemo
+            distinctio totam suscipit delectus. Dolor veritatis et ab maxime
+            dolorum excepturi distinctio neque aliquid, natus possimus sed a,
+            quaerat velit necessitatibus. Repellat voluptatem aut repudiandae
+            amet.
+          </p>
+          <button
+            type="button"
+            class="px-3 py-2 relative font-bold lg:text-lg text-sm bg-transparent border-2 border-solid border-main-gradient-black text-main-gradient-black rounded-sm mt-8 hover:text-main-white hover:bg-main-gradient-black duration-500"
+          >
+            <a id="button1" onclick="changeText()"
+              >Are you positive about us?</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do-->
+    <section class="relative bg-main-background pb-5">
+      <h1 class="lg:text-5xl text-3xl font-bold py-9 text-center">
+        What We <span class="text-main-orange">Offering</span> to You
+      </h1>
+      <div
+        class="lg:w-1400 w-500 lg:space-y-0 space-y-4 mx-auto relative flex lg:flex-row flex-col justify-between items-center"
+      >
+        <div class="card group">
+          <div
+            class="w-full h-full opacity-0 absolute top-0 bottom-0 duration-500 group-hover:bg-main-gradient-black group-hover:bottom-1/2 group-hover:opacity-100 z-0"
+          ></div>
+          <h1 class="z-10 lg:text-3xl font-semibold tracking-wide text-2xl">
+            Lorem
+          </h1>
+          <p class="z-10 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe
+            accusantium modi maxime voluptate, cum sed repellendus? Architecto,
+            doloribus delectus?
+          </p>
+
+          <button
+            type="button"
+            class="px-3 py-1 relative font-bold lg:text-lg text-sm bg-transparent border-2 border-solid border-main-gradient-black text-main-gradient-black rounded-sm duration-500 group-hover:text-main-white group-hover:border-main-white"
+          >
+            <a class="z-10">Book a Call</a>
+          </button>
+        </div>
+
+        <div class="card group">
+          <div
+            class="w-full h-full opacity-0 absolute top-0 bottom-0 duration-500 group-hover:bg-main-gradient-black group-hover:bottom-1/2 group-hover:opacity-100 z-0"
+          ></div>
+          <h1 class="z-10 lg:text-3xl font-semibold tracking-wide text-2xl">
+            Lorem
+          </h1>
+          <p class="z-10 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe
+            accusantium modi maxime voluptate, cum sed repellendus? Architecto,
+            doloribus delectus?
+          </p>
+
+          <button
+            type="button"
+            class="px-3 py-1 relative font-bold lg:text-lg text-sm bg-transparent border-2 border-solid border-main-gradient-black text-main-gradient-black rounded-sm duration-500 group-hover:text-main-white group-hover:border-main-white"
+          >
+            <a class="z-10">Book a Call</a>
+          </button>
+        </div>
+
+        <div class="card group">
+          <div
+            class="w-full h-full opacity-0 absolute top-0 bottom-0 duration-500 group-hover:bg-main-gradient-black group-hover:bottom-1/2 group-hover:opacity-100 z-0"
+          ></div>
+          <h1 class="z-10 lg:text-3xl font-semibold tracking-wide text-2xl">
+            Lorem
+          </h1>
+          <p class="z-10 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe
+            accusantium modi maxime voluptate, cum sed repellendus? Architecto,
+            doloribus delectus?
+          </p>
+
+          <button
+            type="button"
+            class="px-3 py-1 relative font-bold lg:text-lg text-sm bg-transparent border-2 border-solid border-main-gradient-black text-main-gradient-black rounded-sm duration-500 group-hover:text-main-white group-hover:border-main-white"
+          >
+            <a class="z-10">Book a Call</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Achivements-->
+    <section class="relative bg-white py-9">
+      <div
+        class="lg:w-600 w-500 lg:h-400 h-300 mx-auto relative flex lg:flex-row flex-col justify-between items-center bg-gradient-to-l rounded-md from-main-black to-main-black"
+      >
+        <img
+          src="images/const-1.jpg"
+          class="object-cover absolute top-0 left-0 w-full h-full mix-blend-overlay"
+        />
+        <!--Content-->
+        <div
+          class="absolute px-6 text-main-white lg:w-1/2 w-full h-full flex flex-col justify-center"
+        >
+          <h1 class="lg:text-5xl font-bold text-3xl">
+            We'll Make You <span class="text-main-orange">Beatiful</span>
+          </h1>
+          <p class="opacity-600 lg:text-sm text-xs mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+            laudantium eos iure eaque vero, accusamus, odio consequatur
+            distinctio eius sit sed reprehenderit repellendus ad suscipit.
+          </p>
+
+          <div
+            class="flex flex-row w-full justify-between items-center relative mt-6"
+          >
+            <div class="second-card">
+              <span class="font-bold lg:text-3xl text-xl text-main-orange"
+                >14K</span
+              >
+              <p class="lg:text-sm text-xs mt-1">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="second-card">
+              <span class="font-bold lg:text-3xl text-xl text-main-orange"
+                >1K</span
+              >
+              <p class="lg:text-sm text-xs mt-1">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="second-card">
+              <span class="font-bold lg:text-3xl text-xl text-main-orange"
+                >5K</span
+              >
+              <p class="lg:text-sm text-xs mt-1">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Testimonils-->
+    <section class="relative py-9 bg-main-background">
+      <div
+        class="lg:w-1400 w-500 mx-auto flex flex-col items-baseline justify-between"
+      >
+        <h1 class="lg:text-5xl text-3xl font-bold tracking-wide">
+          Testimonials from Our
+          <span class="text-main-orange">Clients</span>!
+        </h1>
+
+        <p class="mt-2">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur,
+          molestiae facere! Placeat incidunt sed earum amet provident non quia
+          alias?
+        </p>
+        <div
+          class="flex lg:flex-row flex-col justify-between items-center mt-10 lg:space-y-0 space-y-3 lg:w-full mx-auto w-400"
+        >
+          <div class="testimonils">
+            <div class="flex flex-col justify-center items-baseline w-full">
+              <div class="flex flex-row justify-stretch items-center w-full">
+                <div class="relative h-25 w-25 rounded-full overflow-hidden">
+                  <img
+                    src="images/profile-picture.jpg"
+                    class="object-cover absolute top-0 left-0 w-full h-full"
+                  />
+                </div>
+                <p class="font-semibold ml-2 opacity-500">Justin Timberlake</p>
+              </div>
+              <div class="flex flex-row justify-between items-center mt-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <p class="mt-3 lg:text-sm text-xs opacity-500 text-black">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Reiciendis nam accusamus magni maxime nisi expedita, in
+              repellendus eveniet rerum dolorum et tempore voluptate quisquam
+              corrupti praesentium, doloribus, nobis debitis eius distinctio!
+            </p>
+          </div>
+          <div class="testimonils">
+            <div class="flex flex-col justify-center items-baseline w-full">
+              <div class="flex flex-row justify-stretch items-center w-full">
+                <div class="relative h-25 w-25 rounded-full overflow-hidden">
+                  <img
+                    src="images/profile-picture.jpg"
+                    class="object-cover absolute top-0 left-0 w-full h-full"
+                  />
+                </div>
+                <p class="font-semibold ml-2 opacity-500">Taylor Swift</p>
+              </div>
+              <div class="flex flex-row justify-between items-center mt-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <p class="mt-3 opacity-500 text-black lg:text-sm text-xs">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Reiciendis nam accusamus magni maxime nisi expedita, in
+              repellendus eveniet rerum dolorum et tempore voluptate quisquam
+              corrupti praesentium, doloribus, nobis debitis eius distinctio!
+            </p>
+          </div>
+          <div class="testimonils">
+            <div class="flex flex-col justify-center items-baseline w-full">
+              <div class="flex flex-row justify-stretch items-center w-full">
+                <div class="relative h-25 w-25 rounded-full overflow-hidden">
+                  <img
+                    src="images/profile-picture.jpg"
+                    class="object-cover absolute top-0 left-0 w-full h-full"
+                  />
+                </div>
+                <p class="font-semibold ml-2 opacity-500">What Up?</p>
+              </div>
+              <div class="flex flex-row justify-between items-center mt-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="h-5 w-5 fill-main-yellow"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <p class="mt-3 opacity-500 text-black lg:text-sm text-xs">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Reiciendis nam accusamus magni maxime nisi expedita, in
+              repellendus eveniet rerum dolorum et tempore voluptate quisquam
+              corrupti praesentium, doloribus, nobis debitis eius distinctio!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="relative py-9 bg-black rounded-t-lg">
+      <div
+        class="lg:w-1400 mx-auto flex lg:flex-row flex-col justify-between items-center text-main-white lg:space-y-0 space-y-3"
+      >
+        <div class="space-x-4">
+          <a href="" class="font-semibold link">Facebook</a>
+          <a href="" class="font-semibold link">Docs</a>
+          <a href="" class="font-semibold link">Contact Us</a>
+          <a href="" class="font-semibold link">Book Call</a>
+        </div>
+        <a href="" class="link"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            class="h-6 w-6 fill-white"
+          >
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+            /></svg
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
